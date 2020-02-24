@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <SurfaceView
+        android:id="@+id/camerapreview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <ImageView
+        android:id="@+id/touchView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/touch_view" />
+
+    <ImageView
+        android:id="@+id/previewFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:contentDescription="frame for debugging preview"
+         />
+
+    <ImageView
+        android:id="@+id/selectionFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/frame"
+        android:tag="s"
+        android:visibility="invisible" 
+        android:contentDescription="@string/selection_frame"
+        />
+
+    <ImageView
+        android:id="@+id/dimmed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#96000000"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/dimmed"
+        />
+
+    <ImageView
+        android:id="@+id/dimmed2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#96000000"
+        android:scaleType="fitXY" 
+        android:contentDescription="@string/dimmed"
+        />
+
+    <ImageView
+        android:id="@+id/dimmed3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#96000000"
+        android:scaleType="fitXY" 
+        android:contentDescription="@string/dimmed"
+        />
+
+    <ImageView
+        android:id="@+id/dimmed4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#96000000"
+        android:scaleType="fitXY" 
+        android:contentDescription="@string/dimmed"
+        />
+
+    <TextView
+        android:id="@+id/swipeView"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#990077CC"
+        android:gravity="center"
+        android:text="@string/swipeText"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/translationScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/swipeView"
+        android:layout_marginBottom="5dp" >
+
+        <LinearLayout
+            android:id="@+id/ocrText"
+            android:orientation="vertical"
+    		android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#9F99CCFF"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </ScrollView>
+
+</RelativeLayout>

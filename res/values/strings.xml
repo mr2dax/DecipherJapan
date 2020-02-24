@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Decipher Japan</string>
+    <string name="title_site_detail">Site Detail</string>
+	<string name="hello">Hello World, DatumDroidOCRActivity!</string>
+    
+	<!-- Text for all swipe views in the application -->
+    <string name="swipeText">Swipe to change view</string>
+  
+    <!-- Dictionary layout descriptions and texts -->
+    <string name="dictionary_title">Dictionary</string>
+    <string name="button">Translate</string>
+    <string name="translation">Translation</string>
+    <string name="radbtn0">jpn</string>
+    <string name="radbtn1">eng</string>
+    
+    <!-- Camera layout descriptions and texts -->
+    <string name="dimmed">Frame that covers selected area</string>
+    <string name="touch_view">Frame for registering touches</string>
+    <string name="selection_frame">Frame for marking selected area</string>
+    <string name="flash">Flash</string>
+    <string name="stop_start">Stop/Start</string>
+    
+    <!-- Startup layout descriptions and texts -->
+    <string name="camera_activity">Camera activity</string>
+    <string name="download">Download libraries</string>
+    <string name="tutorial_image">Image view for displaying the tutorial images</string>
+
+    <!-- CameraActivity strings -->
+    <string name="progress_translating">Translating text - </string>
+    <string name="progress_processing">Processing image</string>
+    <string name="progress_capturing">Capturing image</string>
+    <string name="toast_suggestion">SUGGESTION FOR USER</string>
+    <string name="toast_selection">YOU NEED TO SELECT TWO POINTS</string>
+    
+    <!-- OptionsMenu strings -->
+    <string name="about">IF YOU LIKE OUR VIRUS PLEASE DONATE MONEY!</string>
+    <string name="settings">Settings</string>
+    <string name="conf_lev">Set the Confidence Level (40 to 80%)</string>
+    <string name="cap_freq">Set the delay between screen captures (1 to 10 seconds)</string>
+    <string name="au_res">Resume screen capturing after a successful recognition</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="nullValue">0</string>
+    
+    <!-- Start Activity strings -->
+    <string name="progress_dictionary">Downloading dictionary</string>
+    <string name="progress_library">Downloading OCR library</string>
+    <string name="toast_network">No network connection</string>
+      <string name="text_loading">Loading…\n\nPlease wait</string>    
+</resources>
